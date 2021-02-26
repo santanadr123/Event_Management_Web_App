@@ -9,6 +9,6 @@
         <servlet-name>login</servlet-name>
         <display-name>login</display-name>
         <description/>
-        <servlet-class>com.eventplanner.Servlet.LoginController</servlet-class>
+        <servlet-class>com.eventplanner.contoller.LoginController</servlet-class>
     </servlet>
 </web-app>
