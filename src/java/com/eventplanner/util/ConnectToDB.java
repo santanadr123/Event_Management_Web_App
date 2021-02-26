@@ -17,7 +17,7 @@ public class ConnectToDB {
         Connection connection = null;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://us-cdbr-east-03.cleardb.com:3306/heroku_b474a30c1436448?useSSL-true", "bdd1b3f9484dd9", "082c16d8");
+            connection = DriverManager.getConnection("jdbc:mysql://us-cdbr-east-03.cleardb.com/heroku_df09d67e4bac374?useSSL-true", "ba2e111d9bb47c", "7aca3b25");
             return connection;
             
         } catch (SQLException | ClassNotFoundException ex) {
