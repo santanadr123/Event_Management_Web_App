@@ -22,7 +22,7 @@ import java.util.logging.Logger;
  * @author santa
  */
 
-@WebServlet("/loginController")
+@WebServlet("loginServlet")
 public class LoginController extends HttpServlet{
     
     @Override
