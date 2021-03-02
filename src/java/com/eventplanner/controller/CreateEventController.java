@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.eventplanner.contoller;
+package com.eventplanner.controller;
 
 import com.eventplanner.DAO.CreateEventDAO;
 import com.eventplanner.model.Event;

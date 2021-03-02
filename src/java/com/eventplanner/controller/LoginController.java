@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.eventplanner.contoller;
+package com.eventplanner.controller;
 
 import com.eventplanner.DAO.UserLoginDAO;
 import com.eventplanner.model.User;
@@ -22,7 +22,7 @@ import java.util.logging.Logger;
  * @author santa
  */
 
-@WebServlet("loginServlet")
+@WebServlet("/login")
 public class LoginController extends HttpServlet{
     
     @Override
