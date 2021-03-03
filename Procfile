@@ -1,1 +1,1 @@
-web: java -jar target/dependency/webapp-runner.jar --port $PORT eventScheduler.war
+web: java -jar target/dependency/webapp-runner.jar --port $PORT
